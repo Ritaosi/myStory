@@ -3,9 +3,9 @@
 
 Submitted by: **Osi Rita**
 
-**Super Ri** is an app that introduces ... an icon Super Ri who is a famous defender of her city, and mentions some important information about her. [TODO] 
+**Super Ri** is an app that introduces ... an icon Super Ri who is a famous defender of her city, and mentions some important information about her.  
 
-Time spent: **X** hours spent in total
+Time spent: **5** hours spent in total
 
 ## Required Features
 
