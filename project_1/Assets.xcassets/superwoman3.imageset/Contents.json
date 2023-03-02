@@ -1,11 +1,12 @@
 {
   "images" : [
     {
-      "filename" : "superGirl_1.jpeg",
+      "filename" : "newSuperWomanImage2.jpeg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "superwoman3.jpeg",
       "idiom" : "universal",
       "scale" : "2x"
     },

@@ -16,20 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4a0-rL-LbV">
-                                <rect key="frame" x="75" y="157" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="superWomanImage_1 Small" translatesAutoresizingMaskIntoConstraints="NO" id="aFd-KR-eQU">
-                                        <rect key="frame" x="-50" y="-68" width="340" height="317"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dwg-Kh-qkX">
-                                <rect key="frame" x="109" y="539" width="195" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dwg-Kh-qkX">
+                                <rect key="frame" x="110" y="531" width="176" height="43"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="My Little Secret" cornerStyle="capsule">
                                     <backgroundConfiguration key="background">
@@ -43,9 +31,8 @@
                                     <segue destination="Jai-Nr-AEY" kind="show" id="bVO-jd-fKy"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lZp-qv-Fw2">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lZp-qv-Fw2">
                                 <rect key="frame" x="109" y="582" width="195" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="My workout Routine" cornerStyle="capsule">
                                     <backgroundConfiguration key="background">
@@ -58,9 +45,8 @@
                                     <segue destination="rBm-zS-vFw" kind="show" id="o5S-yS-AMg"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QbQ-EW-gw3">
-                                <rect key="frame" x="109" y="496" width="195" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QbQ-EW-gw3">
+                                <rect key="frame" x="109.99999999999999" y="488.66666666666669" width="175.66666666666663" height="35.000000000000057"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="My Background info" cornerStyle="capsule">
                                     <backgroundConfiguration key="background"/>
@@ -71,9 +57,11 @@
                                     <segue destination="5nJ-2X-KcY" kind="show" id="g1K-dB-BXD"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TwT-dN-2NO">
-                                <rect key="frame" x="109" y="67" width="122" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TwT-dN-2NO">
+                                <rect key="frame" x="16" y="65.666666666666671" width="122" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="122" id="M4r-Xd-Lzm"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Super Ri !!!!!!" cornerStyle="capsule">
                                     <backgroundConfiguration key="background">
@@ -82,9 +70,29 @@
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                 </buttonConfiguration>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="newsuperwoman1.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="9zO-52-CbB">
+                                <rect key="frame" x="0.0" y="140.66666666666663" width="390" height="268"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="268" id="wR4-uC-jdb"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBrownColor"/>
+                        <constraints>
+                            <constraint firstItem="lZp-qv-Fw2" firstAttribute="top" secondItem="Dwg-Kh-qkX" secondAttribute="bottom" constant="8" symbolic="YES" id="BrT-Gp-9L2"/>
+                            <constraint firstItem="TwT-dN-2NO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="18.670000000000002" id="COk-cd-5ml"/>
+                            <constraint firstItem="TwT-dN-2NO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="E6x-0r-i0f"/>
+                            <constraint firstItem="lZp-qv-Fw2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="109" id="Gk8-M1-O2o"/>
+                            <constraint firstItem="QbQ-EW-gw3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="110" id="HA1-b8-YCn"/>
+                            <constraint firstItem="9zO-52-CbB" firstAttribute="top" secondItem="TwT-dN-2NO" secondAttribute="bottom" constant="40" id="SUY-pS-vLJ"/>
+                            <constraint firstItem="9zO-52-CbB" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="UNt-qh-T9C"/>
+                            <constraint firstItem="QbQ-EW-gw3" firstAttribute="top" secondItem="9zO-52-CbB" secondAttribute="bottom" constant="80" id="k4B-ds-2Rg"/>
+                            <constraint firstItem="Dwg-Kh-qkX" firstAttribute="top" secondItem="QbQ-EW-gw3" secondAttribute="bottom" constant="16" id="nvj-ID-wIp"/>
+                            <constraint firstItem="QbQ-EW-gw3" firstAttribute="leading" secondItem="Dwg-Kh-qkX" secondAttribute="leading" id="r9l-Y7-pze"/>
+                            <constraint firstItem="9zO-52-CbB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="rAp-Vu-8IQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lZp-qv-Fw2" secondAttribute="trailing" constant="86" id="rHi-Rl-wu1"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -108,24 +116,24 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="super_girl_2" translatesAutoresizingMaskIntoConstraints="NO" id="F00-Ai-SmL">
-                                <rect key="frame" x="1" y="117" width="390" height="300"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s6x-kR-anZ">
-                                <rect key="frame" x="27" y="39" width="193" height="35"/>
+                                <rect key="frame" x="16" y="20" width="193" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" cornerStyle="capsule">
-                                    <backgroundConfiguration key="background" image="super_girl_2" imageContentMode="scaleToFill">
+                                    <backgroundConfiguration key="background" image="newsuperwoman1.jpeg" imageContentMode="scaleToFill">
                                         <color key="backgroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                     </backgroundConfiguration>
                                     <attributedString key="attributedTitle">
                                         <fragment content="A  little about Super Ri"/>
                                     </attributedString>
-                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="project_1 image.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="M0j-Lg-hbJ">
+                                <rect key="frame" x="28" y="63" width="335" height="348"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="63p-sf-r8R"/>
                         <color key="backgroundColor" systemColor="systemBrownColor"/>
@@ -144,31 +152,46 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="787"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="secretBox" translatesAutoresizingMaskIntoConstraints="NO" id="9UC-lM-mNc">
-                                <rect key="frame" x="71" y="115" width="294" height="285"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBrownColor"/>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="K1M-mI-bbg">
-                                <rect key="frame" x="98" y="436" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="K1M-mI-bbg">
+                                <rect key="frame" x="75" y="372" width="240" height="120"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="7To-5Z-ezz"/>
+                                </constraints>
                                 <string key="text">Super Ri had to keep a lot of secrets to ensure the protection of her people.  One of the greatest secrets she kept during her lifetime was the name of the King who flooded her city </string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f0M-Bd-8F7">
-                                <rect key="frame" x="16" y="38" width="173" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f0M-Bd-8F7">
+                                <rect key="frame" x="16" y="47" width="173" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="173" id="xgm-dM-0L1"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" image="archivebox.fill" catalog="system" title="What she hides " cornerStyle="capsule">
                                     <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="newsuperwoman1.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="9sa-Tc-LfL">
+                                <rect key="frame" x="5" y="102" width="390" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="Orz-GQ-I9j"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1q1-Pv-7pF"/>
                         <color key="backgroundColor" systemColor="systemBrownColor"/>
+                        <constraints>
+                            <constraint firstItem="1q1-Pv-7pF" firstAttribute="trailing" secondItem="K1M-mI-bbg" secondAttribute="trailing" constant="75" id="AnL-eo-DQw"/>
+                            <constraint firstItem="f0M-Bd-8F7" firstAttribute="top" secondItem="VVl-Zv-VKp" secondAttribute="topMargin" id="B42-ec-gmc"/>
+                            <constraint firstItem="9sa-Tc-LfL" firstAttribute="leading" secondItem="1q1-Pv-7pF" secondAttribute="leading" constant="5" id="Kv6-46-Cwb"/>
+                            <constraint firstItem="9sa-Tc-LfL" firstAttribute="top" secondItem="f0M-Bd-8F7" secondAttribute="bottom" constant="20" id="NAy-xf-NKH"/>
+                            <constraint firstItem="K1M-mI-bbg" firstAttribute="leading" secondItem="1q1-Pv-7pF" secondAttribute="leading" constant="75" id="RHd-Hc-dkS"/>
+                            <constraint firstItem="K1M-mI-bbg" firstAttribute="top" secondItem="9sa-Tc-LfL" secondAttribute="bottom" constant="20" id="a6b-px-64g"/>
+                            <constraint firstItem="f0M-Bd-8F7" firstAttribute="leading" secondItem="1q1-Pv-7pF" secondAttribute="leading" constant="16" id="g3O-nA-bbj"/>
+                            <constraint firstItem="9sa-Tc-LfL" firstAttribute="trailing" secondItem="1q1-Pv-7pF" secondAttribute="trailing" constant="5" id="oC1-E1-r1W"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="CEw-Az-LRJ"/>
                 </viewController>
@@ -184,22 +207,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="787"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="superWomanWorkout " translatesAutoresizingMaskIntoConstraints="NO" id="UBf-lh-TxN">
-                                <rect key="frame" x="25" y="119" width="349" height="362"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5f5-TQ-TVk">
-                                <rect key="frame" x="104" y="503" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <string key="text">Super Ri has a cool workout routine to keepher fit and healthy.                                              lateral Raises                              Heavy lifting                              squats            </string>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZLa-Nv-CRY">
-                                <rect key="frame" x="16" y="20" width="90" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZLa-Nv-CRY">
+                                <rect key="frame" x="16" y="47" width="90" height="42.333333333333343"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="Ims-Zf-8pN"/>
+                                    <constraint firstAttribute="height" constant="42.329999999999998" id="aAw-H9-bXU"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Strength" cornerStyle="capsule">
                                     <backgroundConfiguration key="background">
@@ -208,23 +221,48 @@
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                 </buttonConfiguration>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="5f5-TQ-TVk">
+                                <rect key="frame" x="5" y="379.33333333333331" width="380" height="70"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="FWL-bK-00k"/>
+                                </constraints>
+                                <string key="text">Super Ri has a cool workout routine to keepher fit and healthy.   lateral Raises,  Heavy lifting                              squats            </string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="newsuperwoman1.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Pah-2G-fgK">
+                                <rect key="frame" x="5" y="109.33333333333331" width="380" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="a5r-Ps-Ykr"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Gkx-VG-HxD"/>
                         <color key="backgroundColor" systemColor="systemBrownColor"/>
+                        <constraints>
+                            <constraint firstItem="Gkx-VG-HxD" firstAttribute="trailing" secondItem="5f5-TQ-TVk" secondAttribute="trailing" constant="5" id="5hL-iY-atO"/>
+                            <constraint firstItem="5f5-TQ-TVk" firstAttribute="top" secondItem="Pah-2G-fgK" secondAttribute="bottom" constant="20" id="8li-aV-EaV"/>
+                            <constraint firstItem="Pah-2G-fgK" firstAttribute="leading" secondItem="Gkx-VG-HxD" secondAttribute="leading" constant="5" id="AHC-cf-EIc"/>
+                            <constraint firstItem="Gkx-VG-HxD" firstAttribute="trailing" secondItem="Pah-2G-fgK" secondAttribute="trailing" constant="5" id="EUi-S0-B33"/>
+                            <constraint firstItem="Pah-2G-fgK" firstAttribute="top" secondItem="ZLa-Nv-CRY" secondAttribute="bottom" constant="20" id="Z8g-Nj-CFa"/>
+                            <constraint firstItem="5f5-TQ-TVk" firstAttribute="leading" secondItem="Gkx-VG-HxD" secondAttribute="leading" constant="5" id="ed7-vu-gmf"/>
+                            <constraint firstItem="ZLa-Nv-CRY" firstAttribute="leading" secondItem="Gkx-VG-HxD" secondAttribute="leading" constant="16" id="h1Y-pa-lxV"/>
+                            <constraint firstItem="ZLa-Nv-CRY" firstAttribute="top" secondItem="QNL-0H-c1S" secondAttribute="topMargin" id="ls7-QH-qFH"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Gvg-3W-fQi"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MxS-Fc-zQW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="932" y="450"/>
+            <point key="canvasLocation" x="930.76923076923072" y="450"/>
         </scene>
     </scenes>
     <resources>
         <image name="archivebox.fill" catalog="system" width="128" height="107"/>
-        <image name="secretBox" width="75" height="75"/>
-        <image name="superWomanImage_1 Small" width="320" height="180"/>
-        <image name="superWomanWorkout " width="158" height="330.33334350585938"/>
-        <image name="super_girl_2" width="849" height="1200"/>
+        <image name="newsuperwoman1.jpeg" width="146.8800048828125" height="104.40000152587891"/>
+        <image name="project_1 image.jpeg" width="146.8800048828125" height="82.319999694824219"/>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
